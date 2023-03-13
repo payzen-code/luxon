@@ -1,0 +1,43 @@
+{
+  "name": "luxon",
+  "version": "3.3.0",
+  "description": "Immutable date wrapper",
+  "author": "Isaac Cambron",
+  "keywords": [
+    "date",
+    "immutable"
+  ],
+  "repository": "https://github.com/moment/luxon",
+  "scripts": {},
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {},
+  "main": "build/node/luxon.js",
+  "module": "src/luxon.js",
+  "browser": "build/cjs-browser/luxon.js",
+  "jsdelivr": "build/global/luxon.min.js",
+  "unpkg": "build/global/luxon.min.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "build/node/luxon.js",
+    "build/node/luxon.js.map",
+    "build/cjs-browser/luxon.js",
+    "build/cjs-browser/luxon.js.map",
+    "build/amd/luxon.js",
+    "build/amd/luxon.js.map",
+    "build/global/luxon.js",
+    "build/global/luxon.js.map",
+    "build/global/luxon.min.js",
+    "build/global/luxon.min.js.map",
+    "build/es6/luxon.js",
+    "build/es6/luxon.js.map",
+    "src"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
